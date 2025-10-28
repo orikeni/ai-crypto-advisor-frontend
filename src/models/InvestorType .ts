@@ -1,0 +1,7 @@
+export enum InvestorType {
+    HODLER = "HODLER",
+    DAY_TRADER = "DAY_TRADER",
+    NFT_COLLECTOR = "NFT_COLLECTOR",
+    LONG_TERM = "LONG_TERM",
+    SWING_TRADER = "SWING_TRADER"
+  }
