@@ -54,6 +54,7 @@ export default function RegisterPage() {
                             onChange={(e) => setUser({ ...user, password: e.target.value })}
                             className="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-sky-400 focus:outline-none"
                             required
+                             minLength={6}
                         />
                     </div>
                     {error && <p className="text-red-500 text-sm">{error}</p>}
